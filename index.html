@@ -129,7 +129,12 @@ nav .btn{padding:.5rem 1.2rem;font-size:1.1rem}
 .hc{background:#fff;color:var(--ink);border:3px solid var(--ink);border-radius:18px;box-shadow:6px 6px 0 var(--ink);padding:26px 24px 24px}
 .hc .yr{font-family:Anton;font-size:clamp(1.9rem,3.2vw,2.6rem);line-height:1;color:var(--sky);margin-bottom:14px}
 .hc h4{font-family:Anton;font-weight:400;text-transform:uppercase;font-size:1.5rem;line-height:1.1;margin-bottom:6px}
-.hc p{font-weight:700;margin:0}
+.hc .by{font-weight:700;margin:0 0 14px}
+.hc ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.hc li{position:relative;padding-left:18px;font-size:.95rem;font-weight:600;line-height:1.4}
+.hc li::before{content:"";position:absolute;left:0;top:.5em;width:8px;height:8px;border-radius:50%;background:var(--sky)}
+.hc.now li::before{background:var(--yellow)}
+.hc li a{color:inherit;font-weight:800;text-decoration:underline;text-underline-offset:2px}.hc li a:hover{color:var(--sky)}.hc.now li a:hover{color:var(--yellow)}
 .hc.now{background:var(--ink);color:#fff}.hc.now .yr{color:var(--yellow)}
 @media(max-width:700px){.hist{margin-top:40px}.hist .hg{grid-template-columns:1fr;gap:18px}}
 .about>div:first-child{position:relative}
@@ -498,9 +503,31 @@ html.vm-open{overflow:hidden}
   <div class="hist">
     <h3>How it started</h3>
     <div class="hg">
-      <div class="hc"><div class="yr">2005 – 2008</div><h4>Euphorya Clothing</h4><p>by Euphorya</p></div>
-      <div class="hc"><div class="yr">2008 – 2011</div><h4>Throw Clothing</h4><p>by Euphorya</p></div>
-      <div class="hc now"><div class="yr">2012 – Present</div><h4>Dement Clothing</h4><p>by Euphorya</p></div>
+      <div class="hc"><div class="yr">2005 – 2008</div><h4>Euphorya Clothing</h4><p class="by">by Euphorya</p>
+        <ul>
+          <li>Euphorya was founded in 2005, starting with graphic design services at myspace.com and merchandise for local and international punk rock and hardcore bands in the LCHC, Lion City Hardcore and MCHC, Malaysia Hardcore Community scenes.</li>
+          <li>Supported the underground scene with DIY and silkscreen t-shirts for <a href="https://www.comeback-kid.com/" target="_blank" rel="noopener">Comeback Kid</a>, and helped sell merchandise for <a href="https://www.parkwaydriverock.com/" target="_blank" rel="noopener">Parkway Drive</a> and 30+ bands, plus support for gigs and events</li>
+          <li>Made custom t-shirts, pin buttons and sticker designs, and later launched in Kuala Lumpur, Malaysia</li>
+          <li>The clothing label began here in Singapore, with Euphorya as the parent company. It grew into media production, e-commerce, SaaS and community building for local and SEA startups</li>
+        </ul></div>
+      <div class="hc"><div class="yr">2008 – 2011</div><h4>Throw Clothing</h4><p class="by">by Euphorya</p>
+        <ul>
+          <li>The label was rebranded from Euphorya Clothing to Throw Clothing in 2008</li>
+          <li>Launched in Jakarta and Bandung at the Indonesia Yo-Yo Contest Event</li>
+          <li>T-shirt silkscreen production was manufactured in Bandung, Indonesia</li>
+          <li>Sponsored the Malaysia Yo-Yo Championships 2008 for the top 3 winners</li>
+          <li>Released over 5 designs for the collection</li>
+          <li>Partnered with Indonesian investors and later launched in Singapore</li>
+          <li>One of its most iconic designs featured full-stretch printing and tie-dye</li>
+          <li>Still part of Euphorya, which keeps all of Fajar’s clothing brands under one roof</li>
+        </ul></div>
+      <div class="hc now"><div class="yr">2012 – Present</div><h4>Dement Clothing</h4><p class="by">by Euphorya</p>
+        <ul>
+          <li>Became Dement Clothing by Euphorya in 2012, with the “Made in Yishun” spirit and the “Fight for Passion!” slogan.</li>
+          <li>2012 to 2016: 1,000+ units sold across 35 designs and collabs, about $21,225 in profit, reinvested to make more and give back to the community</li>
+          <li>Community projects include <a href="https://www.youtube.com/watch?v=xCk-7_9rhIg&amp;list=PLJjdoECLxzeFlneHGs84CsCT_-ZL4aQJP" target="_blank" rel="noopener">Throw+65</a> in Singapore and the <a href="https://kedaiyoyo.com/pages/dement-yo-yo-cup-2014" target="_blank" rel="noopener">Dement Yo-Yo Cup</a> in Kuala Lumpur, 2014, with Kedaiyoyo.com</li>
+          <li>Brings together 100+ people across Southeast Asia, and today supports MYYA with gear, branding and coaching</li>
+        </ul></div>
     </div>
   </div>
 </div></section>
