@@ -123,11 +123,20 @@ nav .btn{padding:.5rem 1.2rem;font-size:1.1rem}
 .about h2{font-size:clamp(2.6rem,5vw,4rem);margin-bottom:24px}
 .about p{margin-bottom:16px;line-height:1.4;font-weight:600}
 .sig{font-family:Anton;text-transform:uppercase;font-size:1.2rem}
+.hist{margin-top:60px}
+.hist h3{font-family:Anton;text-transform:uppercase;font-size:1.3rem;letter-spacing:.04em;margin-bottom:18px}
+.hist .hg{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.hc{background:#fff;color:var(--ink);border:3px solid var(--ink);border-radius:18px;box-shadow:6px 6px 0 var(--ink);padding:26px 24px 24px}
+.hc .yr{font-family:Anton;font-size:clamp(1.9rem,3.2vw,2.6rem);line-height:1;color:var(--sky);margin-bottom:14px}
+.hc h4{font-family:Anton;font-weight:400;text-transform:uppercase;font-size:1.5rem;line-height:1.1;margin-bottom:6px}
+.hc p{font-weight:700;margin:0}
+.hc.now{background:var(--ink);color:#fff}.hc.now .yr{color:var(--yellow)}
+@media(max-width:700px){.hist{margin-top:40px}.hist .hg{grid-template-columns:1fr;gap:18px}}
 .about>div:first-child{position:relative}
-.yt{position:absolute;top:14px;right:14px;z-index:3;display:inline-flex;align-items:center;gap:12px;background:#fff;color:var(--ink);font-family:Anton;font-size:1.9rem;line-height:1;text-transform:uppercase;letter-spacing:.02em;padding:10px 20px 10px 12px;border:4px solid var(--ink);border-radius:16px;box-shadow:5px 5px 0 var(--ink);transition:transform .15s,box-shadow .15s}
-.yt svg{width:52px;height:38px;flex:none}
+.yt{position:absolute;top:14px;right:14px;z-index:3;display:inline-flex;align-items:center;gap:10px;background:#fff;color:var(--ink);font-family:Anton;font-size:1.5rem;line-height:1;text-transform:uppercase;letter-spacing:.02em;padding:8px 16px 8px 10px;border:3px solid var(--ink);border-radius:14px;box-shadow:4px 4px 0 var(--ink);transition:transform .15s,box-shadow .15s}
+.yt svg{width:42px;height:30px;flex:none}
 .yt:hover{transform:translate(2px,2px);box-shadow:3px 3px 0 var(--ink)}
-@media(max-width:560px){.yt{font-size:1.35rem;gap:8px;padding:8px 14px 8px 8px;top:10px;right:10px}.yt svg{width:40px;height:30px}}
+@media(max-width:560px){.yt{font-size:1.15rem;gap:8px;padding:6px 12px 6px 8px;top:10px;right:10px}.yt svg{width:34px;height:25px}}
 /* artist + near */
 .art{background:#fff repeating-conic-gradient(#00AEFF22 0 8deg,transparent 8deg 16deg);padding:80px 0}
 .art .g{display:grid;grid-template-columns:1fr 1.1fr 1fr;gap:30px;align-items:center}
@@ -395,6 +404,42 @@ html.vm-open{overflow:hidden}
         <span class="pl"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg></span>
         <div class="cap"><h3>Video Title 3</h3><p>Short description goes here.</p></div>
       </button>
+      <button class="sv-card" type="button" data-src="" data-poster="" aria-label="Play video 4">
+        <div class="pst"></div>
+        <div class="em"><span class="sv-av"></span></div>
+        <span class="pl"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg></span>
+        <div class="cap"><h3>Video Title 4</h3><p>Short description goes here.</p></div>
+      </button>
+      <button class="sv-card" type="button" data-src="" data-poster="" aria-label="Play video 5">
+        <div class="pst"></div>
+        <div class="em"><span class="sv-av"></span></div>
+        <span class="pl"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg></span>
+        <div class="cap"><h3>Video Title 5</h3><p>Short description goes here.</p></div>
+      </button>
+      <button class="sv-card" type="button" data-src="" data-poster="" aria-label="Play video 6">
+        <div class="pst"></div>
+        <div class="em"><span class="sv-av"></span></div>
+        <span class="pl"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg></span>
+        <div class="cap"><h3>Video Title 6</h3><p>Short description goes here.</p></div>
+      </button>
+      <button class="sv-card" type="button" data-src="" data-poster="" aria-label="Play video 7">
+        <div class="pst"></div>
+        <div class="em"><span class="sv-av"></span></div>
+        <span class="pl"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg></span>
+        <div class="cap"><h3>Video Title 7</h3><p>Short description goes here.</p></div>
+      </button>
+      <button class="sv-card" type="button" data-src="" data-poster="" aria-label="Play video 8">
+        <div class="pst"></div>
+        <div class="em"><span class="sv-av"></span></div>
+        <span class="pl"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg></span>
+        <div class="cap"><h3>Video Title 8</h3><p>Short description goes here.</p></div>
+      </button>
+      <button class="sv-card" type="button" data-src="" data-poster="" aria-label="Play video 9">
+        <div class="pst"></div>
+        <div class="em"><span class="sv-av"></span></div>
+        <span class="pl"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg></span>
+        <div class="cap"><h3>Video Title 9</h3><p>Short description goes here.</p></div>
+      </button>
   </div>
 </div></section>
 
@@ -448,6 +493,14 @@ html.vm-open{overflow:hidden}
       <p>In 2011 he launched Dement, a brand built by a player, for the people who play. Clothes that move with you, from the contest stage to the street.</p>
       <p>Today Dement covers yo-yo’s and skill toys, clothing streetwear and gifts, plus DIY and craft, outdoor and adventure. Same spirit: limited drops, real design, no shortcuts.</p>
       <div class="sig">Fajar Siddiq, Founder</div>
+    </div>
+  </div>
+  <div class="hist">
+    <h3>How it started</h3>
+    <div class="hg">
+      <div class="hc"><div class="yr">2005 – 2008</div><h4>Euphorya Clothing</h4><p>by Euphorya</p></div>
+      <div class="hc"><div class="yr">2008 – 2011</div><h4>Throw Clothing</h4><p>by Euphorya</p></div>
+      <div class="hc now"><div class="yr">2012 – Present</div><h4>Dement Clothing</h4><p>by Euphorya</p></div>
     </div>
   </div>
 </div></section>
@@ -528,7 +581,7 @@ html.vm-open{overflow:hidden}
 <script>
 function rail(d){document.getElementById('rail').scrollBy({left:d*324,behavior:'smooth'})}
 
-function svRail(d){var r=document.getElementById('svRail');if(r)r.scrollBy({left:d*324,behavior:'smooth'})}
+function svRail(d){var r=document.getElementById('svRail');if(r)r.scrollBy({left:d*Math.max(324,r.clientWidth*.8),behavior:'smooth'})}
 (function(){
   var cards=[].slice.call(document.querySelectorAll('.sv-card'));
   var vm=document.getElementById('vm');
