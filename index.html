@@ -395,6 +395,10 @@ footer .soc a{width:auto;height:auto;min-width:0;min-height:0;border-radius:0;ba
 footer .soc a svg{display:block;width:28px;height:28px}
 footer .soc a:hover{color:var(--sky);transform:translateY(-2px)}
 .legal a{color:inherit;text-decoration:underline;text-underline-offset:3px}.legal a:hover{color:var(--sky)}
+
+/* street team rail: fade to black at left & right so cards don't look cut off */
+.sv-rail{padding-left:70px;padding-right:70px;-webkit-mask-image:linear-gradient(to right,transparent 0,#000 70px,#000 calc(100% - 70px),transparent 100%);mask-image:linear-gradient(to right,transparent 0,#000 70px,#000 calc(100% - 70px),transparent 100%)}
+@media(max-width:560px){.sv-rail{padding-left:28px;padding-right:28px;-webkit-mask-image:linear-gradient(to right,transparent 0,#000 28px,#000 calc(100% - 28px),transparent 100%);mask-image:linear-gradient(to right,transparent 0,#000 28px,#000 calc(100% - 28px),transparent 100%)}}
 </style>
 </head>
 <body>
